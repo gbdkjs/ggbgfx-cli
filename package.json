@@ -1,0 +1,22 @@
+{
+  "name": "ggbgfx-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint bin/*.js"
+  },
+  "bin": {
+    "ggbgfx": "./bin/ggbgfx.js"
+  },
+  "author": "Chris Maltby",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.13.0",
+    "ggbgfx": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-prettier": "^2.9.0"
+  }
+}
