@@ -3,6 +3,15 @@
 > GGBFX command line interface.  
 > A tool for converting images into the Nintendo Game Boy's graphics format.
 
+## GBDK.js Project
+
+Visit the [gbdkjs.com](https://www.gbdkjs.com) website for more information.
+
+[GBDK.js Documentation](https://www.gbdkjs.com/docs/)
+
+
+## Install
+
 Install globally to have access to the `ggbgfx` command.
 
 ```shell
