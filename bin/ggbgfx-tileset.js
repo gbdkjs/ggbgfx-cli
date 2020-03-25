@@ -17,7 +17,7 @@ program
     }
     var outFile = path.resolve(process.cwd(), program.outfile);
     ggbgfx.imagesToTilesetImage(images, outFile).catch(function(error) {
-      process.stderr.write(error);
+      process.stderr.write(error.toString());
       process.exit(1);
     });
   });
